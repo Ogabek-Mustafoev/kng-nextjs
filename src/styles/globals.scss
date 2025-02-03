@@ -1,0 +1,36 @@
+@use 'mixin' as mixin;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  font-family: 'recoleta';
+  src: url('../assets/fonts/recoleta.woff') format('woff');
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-3 sm:px-4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.recoleta {
+  font-family: 'recoleta', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fe4500;
+}

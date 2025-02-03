@@ -1,0 +1,13 @@
+{
+  "header": {
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About Us",
+    "privacy": "Privacy Policy"
+  },
+  "hero": {
+    "title": "\"Global Move\" is your strategic partner for digital solutions!",
+    "btnText": "Contact Us",
+    "subTitle": "We help startups and brands develop digital solutions for their software needs"
+  }
+}
