@@ -5,6 +5,11 @@ import waterImg from '@/assets/images/water.jpg';
 import houseImg from '@/assets/images/house.jpg';
 import cactusImg from '@/assets/images/cactus.jpg';
 
+import codeIcon from '@/assets/icons/code.svg';
+import cloudIcon from '@/assets/icons/cloud.svg';
+import mobileIcon from '@/assets/icons/mobile.svg';
+import developmentIcon from '@/assets/icons/development.svg';
+
 export const headerLinks: ILinkData[] = [
   {
     href: '#projects',
@@ -28,38 +33,56 @@ export const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 export const projects = [
   {
-    title: 'Matthias Leidinger',
-    description:
-      'Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.',
+    title: 'matthias_leidinger.title',
+    description: 'matthias_leidinger.description',
     image: rockImg,
-    color: '#BBACAF',
+    color: '#ffffff',
   },
   {
-    title: 'Clément Chapillon',
-    description:
-      'This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’).',
+    title: 'clement_chapillon.title',
+    description: 'clement_chapillon.description',
     image: treeImg,
-    color: '#977F6D',
+    color: '#c5b09c',
   },
   {
-    title: 'Zissou',
-    description:
-      'Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.',
+    title: 'zissou.title',
+    description: 'zissou.description',
     image: waterImg,
-    color: '#C2491D',
+    color: '#d8a291',
   },
   {
-    title: 'Mathias Svold and Ulrik Hasemann',
-    description:
-      'The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.',
+    title: 'mathias_svold_ulrik_hasemann.title',
+    description: 'mathias_svold_ulrik_hasemann.description',
     image: houseImg,
-    color: '#B62429',
+    color: '#D2E8C8',
   },
   {
-    title: 'Mark Rammers',
-    description:
-      'Dutch photographer Mark Rammers has shared with IGNANT the first chapter of his latest photographic project, ‘all over again’—captured while in residency at Hektor, an old farm in Los Valles, Lanzarote. Titled ‘Beginnings’, the mesmerizing collection of images is a visual and meditative journey into the origins of regrets and the uncertainty of stepping into new unknowns.',
+    title: 'mark_rammers.title',
+    description: 'mark_rammers.description',
     image: cactusImg,
-    color: '#88A28D',
+    color: '#EAE8E1',
+  },
+];
+
+export const servicesData = [
+  {
+    title: 'development.title',
+    icon: developmentIcon,
+    content: 'development.content',
+  },
+  {
+    title: 'mobile.title',
+    icon: mobileIcon,
+    content: 'mobile.content',
+  },
+  {
+    title: 'web.title',
+    icon: codeIcon,
+    content: 'web.content',
+  },
+  {
+    title: 'cloud.title',
+    icon: cloudIcon,
+    content: 'cloud.content',
   },
 ];

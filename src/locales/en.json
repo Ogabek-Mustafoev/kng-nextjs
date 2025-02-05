@@ -9,5 +9,58 @@
     "title": "\"Global Move\" is your strategic partner for digital solutions!",
     "btnText": "Contact Us",
     "subTitle": "We help startups and brands develop digital solutions for their software needs"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Our work combines modern innovations and practical solutions, ensuring unique and effective results for each project.",
+    "matthias_leidinger": {
+      "title": "Matthias Leidinger",
+      "description": "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas."
+    },
+    "clement_chapillon": {
+      "title": "Clément Chapillon",
+      "description": "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’)."
+    },
+    "zissou": {
+      "title": "Zissou",
+      "description": "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them."
+    },
+    "mathias_svold_ulrik_hasemann": {
+      "title": "Mathias Svold and Ulrik Hasemann",
+      "description": "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast."
+    },
+    "mark_rammers": {
+      "title": "Mark Rammers",
+      "description": "Dutch photographer Mark Rammers has shared with IGNANT the first chapter of his latest photographic project, ‘all over again’—captured while in residency at Hektor, an old farm in Los Valles, Lanzarote. Titled ‘Beginnings’, the mesmerizing collection of images is a visual and meditative journey into the origins of regrets and the uncertainty of stepping into new unknowns."
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "We help startups and brands develop digital solutions for their software needs",
+    "development": {
+      "title": "Software Development",
+      "content": "<p>Our <b>software development services</b> ensure that you receive a scalable, secure, and high-performance solution tailored to your specific requirements. Whether you need an <b>enterprise-level application</b>, an internal management system, or a <b>custom tool</b>, we develop software that seamlessly integrates with your <b>operations</b>.</p>"
+    },
+    "mobile": {
+      "title": "Mobile Application Development",
+      "content": "<p>We specialize in developing <b>modern mobile applications</b> for Android and iOS platforms. Our development process is designed to deliver <b>intuitive</b>, <b>feature-rich</b>, and <b>high-performance</b> applications that align with your business goals. Whether you want to create a consumer-facing app or a corporate solution, our team ensures that your application provides a seamless user experience across all devices.</p>"
+    },
+    "web": {
+      "title": "Web Development",
+      "content": "<p>We specialize in delivering <b>modern, dynamic</b>, and <b>responsive websites</b> that are not only visually appealing but also built for performance. Our web development services are tailored to your business goals, whether it's enhancing brand visibility, increasing user engagement, or driving online sales. We focus on creating <b>fast, secure</b>, and scalable websites that provide a seamless experience across all devices.</p>"
+    },
+    "cloud": {
+      "title": "Cloud Solutions",
+      "content": "<p><b>Cloud Solutions</b> refer to a range of services and technologies that provide businesses and individuals with <b>flexible</b> and <b>scalable access</b> to computing resources via the Internet. These solutions include <b>data storage</b>, application hosting, computing power, and networking capabilities.</p>"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "mission": {
+      "title": "Our Mission",
+      "text": "Providing innovative and reliable IT solutions that help businesses succeed in the rapidly evolving digital landscape. We are committed to building strong, lasting relationships with our customers by delivering the highest levels of service, quality, and expertise."
+    },
+    "text": "Take your paper-based business to the next digital level with Global Move.",
+    "description": "At Global Move, we are an IT company committed to delivering innovative digital solutions that drive growth and efficiency for businesses around the world. With a focus on cutting-edge technology and personalized service, we empower companies to embrace the digital future through customized software, mobile apps, web development, cloud solutions, and cybersecurity."
   }
 }

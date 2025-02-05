@@ -20,8 +20,3 @@ export interface ILinkData {
   text: string;
   image?: StaticImageData;
 }
-
-export interface ISelectData {
-  value: string;
-  label: string;
-}

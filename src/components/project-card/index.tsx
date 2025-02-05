@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import {FC, useRef} from 'react';
+import {useTranslations} from 'next-intl';
 import {MotionValue, motion, useScroll, useTransform} from 'framer-motion';
 
 import {projects} from '@/constants/data';
@@ -20,6 +21,7 @@ export const ProjectCard: FC<IProjectCard> = (props) => {
     targetScale,
     project: {color, image, description, title},
   } = props;
+  const t = useTranslations('projects');
 
   const container = useRef(null);
   const {scrollYProgress} = useScroll({
@@ -27,30 +29,41 @@ export const ProjectCard: FC<IProjectCard> = (props) => {
     offset: ['start end', 'start start'],
   });
 
-  const imageScale = useTransform(scrollYProgress, [0, 1], [2, 1]);
   const scale = useTransform(progress, range, [1, targetScale]);
+  const imageScale = useTransform(scrollYProgress, [0, 1], [2, 1]);
 
   return (
     <div
       ref={container}
-      className="sticky top-0 flex items-center justify-center"
+      className="sticky top-[20vh] flex items-center justify-center"
     >
       <motion.div
         style={{
           scale,
+          top: ` ${idx * 10}px`,
           backgroundColor: color,
-          top: `calc(15vh + ${idx * 25}px)`,
         }}
-        className="relative flex h-[500px] w-full origin-top flex-col rounded-3xl p-12"
+        className="relative flex h-[550px] w-full origin-top flex-col rounded-3xl p-12"
       >
-        <h2 className="text-center text-3xl">{title}</h2>
+        <h2 className="text-center text-3xl">{t(title)}</h2>
         <div className="mt-14 flex h-full gap-12">
           <div className="w-2/5">
-            <p className="recoleta first-letter:text-2xl">{description}</p>
+            <p className="recoleta first-letter:text-2xl">{t(description)}</p>
           </div>
-          <div className="relative h-full w-3/5 overflow-hidden rounded-2xl">
-            <motion.div className="h-full w-full" style={{scale: imageScale}}>
-              <Image className="object-cover" fill src={image} alt="image" />
+          <div className="h-full w-3/5 overflow-hidden rounded-2xl">
+            <motion.div
+              className="relative h-full w-full"
+              style={{scale: imageScale}}
+            >
+              <Image
+                fill
+                src={image}
+                alt="image"
+                loading="lazy"
+                placeholder="blur"
+                className="absolute object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
             </motion.div>
           </div>
         </div>

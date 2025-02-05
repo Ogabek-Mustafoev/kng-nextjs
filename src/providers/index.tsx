@@ -6,6 +6,7 @@ import ReactLenis, {useLenis} from 'lenis/react';
 import Header from '@/components/header';
 import {IChildren, IParams} from '@/types';
 import {HeroUIProvider} from '@heroui/react';
+import Footer from '@/components/footer';
 
 const Providers: FC<IChildren & IParams> = ({children, locale}) => {
   useLenis();
@@ -14,7 +15,8 @@ const Providers: FC<IChildren & IParams> = ({children, locale}) => {
     <ReactLenis root>
       <HeroUIProvider className="relative" locale={locale}>
         <Header />
-        <main className="min-h-[200vh]">{children}</main>
+        {children}
+        <Footer />
       </HeroUIProvider>
     </ReactLenis>
   );

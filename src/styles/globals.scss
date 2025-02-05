@@ -11,10 +11,6 @@
   src: url('../assets/fonts/recoleta.woff') format('woff');
 }
 
-.container {
-  @apply max-w-6xl mx-auto px-3 sm:px-4;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -22,6 +18,14 @@ html {
 body {
   background-color: #F5F3F1;
   min-height: 100vmin;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-3 sm:px-4;
+}
+
+.custom-height {
+  height: calc(100vh - 116px);
 }
 
 .recoleta {

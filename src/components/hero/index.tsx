@@ -18,7 +18,7 @@ const Hero: FC = () => {
   const t = useTranslations('hero');
 
   return (
-    <section className="mt-20 flex flex-col gap-10">
+    <section className="custom-height flex flex-col items-center justify-center gap-28">
       <div className="container">
         <div className="grid grid-cols-2 gap-10">
           <div className="flex flex-col items-baseline gap-6">
@@ -32,13 +32,14 @@ const Hero: FC = () => {
           <div className="group overflow-hidden rounded-xl">
             <Image
               alt="hero"
+              priority
               src={heroImg}
               className="h-full w-full object-cover transition-all duration-700 group-hover:scale-110"
             />
           </div>
         </div>
       </div>
-      <div className="mx-auto my-20 max-w-7xl">
+      <div className="mx-auto w-full max-w-7xl">
         <Swiper
           loop
           freeMode
