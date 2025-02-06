@@ -42,13 +42,13 @@ const Services: FC = () => {
               </motion.div>
             ))}
           </div>
-          <div className="sticky top-1/4 h-max">
+          <div className="sticky top-1/4 h-96">
             {servicesImages.map((image, idx) => (
               <Image
                 src={image}
                 key={idx + '-image'}
                 alt={idx + '-image'}
-                className={`ml-auto w-11/12 ${idx === index ? 'opacity-100' : 'hidden opacity-0'}`}
+                className={`absolute right-0 top-0 ml-auto w-11/12 ${idx === index ? 'opacity-100' : 'opacity-0'}`}
               />
             ))}
           </div>
