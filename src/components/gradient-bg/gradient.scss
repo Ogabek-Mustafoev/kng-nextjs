@@ -1,16 +1,15 @@
 :root {
-  --color-bg1: rgb(190, 140, 230); /* Soft lavender */
-  --color-bg2: rgb(100, 110, 180); /* Muted periwinkle */
-  --color1: 140, 190, 255; /* Sky blue */
-  --color2: 250, 180, 255; /* Light pinkish magenta */
-  --color3: 180, 240, 255; /* Ice blue */
-  --color4: 245, 140, 140; /* Soft coral */
-  --color5: 240, 240, 180; /* Pale yellow */
-  --color-interactive: 200, 180, 255; /* Gentle lavender */
-  --circle-size: 80%;
-  --blending: soft-light; /* Softer blending */
+  --color-bg1: rgb(220, 200, 240); /* Lighter lavender */
+  --color-bg2: rgb(160, 170, 210); /* Lighter periwinkle */
+  --color1: 180, 210, 255; /* Lighter sky blue */
+  --color2: 255, 210, 255; /* Very light pinkish magenta */
+  --color3: 210, 250, 255; /* Lighter ice blue */
+  --color4: 250, 180, 180; /* Lighter soft coral */
+  --color5: 250, 250, 210; /* Lighter pale yellow */
+  --color-interactive: 230, 210, 255; /* Lighter gentle lavender */
+  --circle-size: 80%; /* Keep circle size as is, or adjust as needed */
+  --blending: soft-light; /* Even softer blending */
 }
-
 
 @keyframes moveInCircle {
   0% {
@@ -64,7 +63,6 @@
     width: 0;
     height: 0;
   }
-
 
   .gradients-container {
     filter: url(#goo) blur(40px);
