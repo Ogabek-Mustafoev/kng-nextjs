@@ -16,7 +16,7 @@ const Services: FC = () => {
   return (
     <section
       id="services"
-      className="rounded-3xl bg-gradient-to-b from-white to-transparent py-20"
+      className="from-lightWhite rounded-3xl bg-gradient-to-b to-transparent py-20"
     >
       <div className="container flex flex-col gap-20">
         <div className="flex flex-col items-center justify-center gap-5 text-center">

@@ -13,7 +13,7 @@ const About: FC = () => {
   return (
     <section
       id="about"
-      className="rounded-3xl bg-gradient-to-b from-transparent to-white pb-10"
+      className="to-lightWhite rounded-3xl bg-gradient-to-b from-transparent pb-10"
     >
       <div className="container flex flex-col gap-14">
         <h1 className="recoleta text-center text-5xl">{t('title')}</h1>

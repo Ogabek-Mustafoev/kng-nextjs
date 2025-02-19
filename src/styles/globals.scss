@@ -1,12 +1,12 @@
 @use 'mixin' as mixin;
 
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+@tailwind components;
 
 @font-face {
-  font-display: swap;
   font-style: normal;
+  font-display: swap;
   font-family: 'recoleta';
   src: url('../assets/fonts/recoleta.woff') format('woff');
 }
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: #F5F3F1;
+  position: relative;
   min-height: 100vmin;
 }
 
@@ -26,6 +26,7 @@ body {
 
 .custom-height {
   height: calc(100vh - 116px);
+  line-height: normal;
 }
 
 .recoleta {

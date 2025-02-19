@@ -4,9 +4,9 @@ import {FC} from 'react';
 import ReactLenis, {useLenis} from 'lenis/react';
 
 import Header from '@/components/header';
+import Footer from '@/components/footer';
 import {IChildren, IParams} from '@/types';
 import {HeroUIProvider} from '@heroui/react';
-import Footer from '@/components/footer';
 
 const Providers: FC<IChildren & IParams> = ({children, locale}) => {
   useLenis();

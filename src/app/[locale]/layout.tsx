@@ -10,6 +10,7 @@ import {locales} from '@/constants';
 import {IChildren, IProps} from '@/types';
 
 import '@/styles/globals.scss';
+import GradientBg from '@/components/gradient-bg';
 
 const inter = Inter({subsets: ['latin']});
 
@@ -30,6 +31,7 @@ const RootLayout: FC<IChildren & IProps> = async ({children, params}) => {
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers locale={locale}>{children}</Providers>
         </NextIntlClientProvider>
+        <GradientBg />
       </body>
     </html>
   );

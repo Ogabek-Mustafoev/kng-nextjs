@@ -1,16 +1,18 @@
 import {FC} from 'react';
+import Image from 'next/image';
 import {useTranslations} from 'next-intl';
 
 import {Link} from '@/i18n/routing';
 import {headerLinks} from '@/constants/data';
+import logoImg from '@/assets/images/logo.png';
 
 const Header: FC = () => {
   const t = useTranslations('header');
 
   return (
-    <header className="flex items-center justify-between gap-10 px-10 py-10">
+    <header className="flex items-center justify-between gap-10 px-10 py-5">
       <div className="flex items-center gap-2">
-        <p className="text-3xl font-bold">LOGO</p>
+        <Image src={logoImg} alt="logo" className="h-14 w-max" />
       </div>
       <div className="flex items-center gap-5 font-medium">
         {headerLinks.map(({text, href}) => (

@@ -14,6 +14,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: '#000',
+        lightWhite: 'rgba(255,255,255,0.5)',
       },
     },
   },

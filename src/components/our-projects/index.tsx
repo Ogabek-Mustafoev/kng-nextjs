@@ -18,7 +18,7 @@ const OurProjects: FC = () => {
   return (
     <section
       id="projects"
-      className="rounded-3xl bg-gradient-to-b from-transparent to-white pb-20"
+      className="to-lightWhite rounded-3xl bg-gradient-to-b from-transparent pb-20"
     >
       <div ref={container} className="container sticky flex flex-col gap-16">
         <div className="flex flex-col items-center justify-center gap-5 text-center">

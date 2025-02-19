@@ -8,7 +8,7 @@ const Footer: FC = () => {
   const t = useTranslations('footer');
   return (
     <footer className="relative h-screen min-h-screen p-10">
-      <div className="grid h-full w-full place-items-center rounded-3xl bg-gradient-to-b from-transparent to-white">
+      <div className="to-lightWhite grid h-full w-full place-items-center rounded-3xl bg-gradient-to-b from-transparent">
         <div className="container text-center">
           <div className="relative flex w-full flex-col items-center justify-center gap-3 overflow-hidden rounded-full bg-lime-600 bg-opacity-40 py-24">
             <h1 className="recoleta max-w-lg text-5xl leading-tight">
